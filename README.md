@@ -1,4 +1,4 @@
-# 📈 NSE Big 4 — NSE Pulse-Stock Performance Analytics Engine
+# 📈 Big 4 — NSE Pulse-Stock Performance Analytics Engine
 **Advanced SQL Analysis · 1 Year · 4 Nifty 50 Stocks · 988 Rows · 11 Business Queries**
 
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql)
