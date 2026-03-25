@@ -126,4 +126,5 @@ I am actively seeking opportunities to apply this level of analytical rigor to a
 
 📧 akash.pshaw524@gmail.com
 🔗https://www.linkedin.com/in/akashshaw524/
+GitHub: (https://github.com/akashpshaw524)
 📍 Kolkata, India · Open to remote and relocation
