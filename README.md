@@ -93,7 +93,10 @@ Q10 calculates 7-day and 30-day moving averages and flags whether each day's clo
 nse-stock-analytics/
 ├── README.md
 ├── data/
-│   └── nse_clean.csv
+    └── MM.csv
+    └── RELIANCE.csv
+    └── TATAPOWER.csv
+    └── WIPRO.csv
 ├── schema/
 │   └── 01_full_nse_project.sql
 ├── analysis/
@@ -104,15 +107,19 @@ nse-stock-analytics/
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run This Project
 
-```sql
-CREATE DATABASE nse_analysis;
-USE nse_analysis;
--- Run schema/01_full_nse_project.sql
--- Load data via Python loader
--- Run analysis/02_big4 _stock_analysis_queries.sql
-```
+1. **Initialize Database**: 
+   - Run `CREATE DATABASE nse_analysis;`
+   - Use the database: `USE nse_analysis;`
+2. **Setup Schema**: 
+   - Execute the script `schema/01_full_nse_project.sql` to create the table structure.
+3. **Import Data**: 
+   - Right-click the `prices` table in MySQL Workbench and select **Table Data Import Wizard**.
+   - Select the `prices.csv` file.
+   - **Important**: In the column mapping, set `price_id` to **"Skip"** (it is auto-generated) and ensure all other columns match the table headers.
+4. **Run Analysis**: 
+   - Open and run `analysis/big4_stock_analysis_queries.sql` to see the Golden Cross, 30-day MA, and Monthly Ranking reports.
 
 ---
 
@@ -120,7 +127,7 @@ USE nse_analysis;
 
 I come from a decade of business development, client management, and financial data environments. I'm now channelling that domain knowledge into data analytics — with a focus on roles where analytical rigour meets real business context.
 
-📫 Let's Connect
+📫 Let's Connect , 
 I am actively seeking opportunities to apply this level of analytical rigor to a professional Data Team.
 
 
